@@ -99,7 +99,6 @@ int print_percent(va_list types, char buffer[],
 
 /************************* PRINT INT *************************/
 /**
-<<<<<<< HEAD
 * write_num - Write a number using a bufffer
 * @ind: Index at which the number starts on the buffer
 * @buffer: Buffer
@@ -167,14 +166,12 @@ int write_num(int ind, char buffer[],
 * @flags: Flags specifiers
 * @width: Width specifier
 * @precision: Precision specifier
-=======
 * print_int - Print int
 * @types: Lista of arguments
 * @buffer: Buffer array to handle print
 * @flags:  Calculates active flags
 * @width: get width.
 * @precision: Precision specification
->>>>>>> 2006ed5bb3cd3f1c9e7456989c77e4e8b53e7339
 * @size: Size specifier
 * Return: Number of chars printed
 */
